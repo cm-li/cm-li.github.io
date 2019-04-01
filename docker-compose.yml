@@ -2,6 +2,6 @@ jekyll:
     image: jekyll/jekyll:pages
     command: jekyll serve --watch
     ports:
-        - 3999:4000
+        - 3998:4000
     volumes:
-        - ~/Documents/chengmingli.github.io:/srv/jekyll/
+        - ../cm-li.github.io:/srv/jekyll/
