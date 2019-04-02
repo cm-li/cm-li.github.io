@@ -1,19 +1,18 @@
 ---
 layout:     post
-title:      研究内容：众包车载内容中心网络中高效的内容分发模型
-subtitle:   众包车载内容中心网络中高效的内容分发模型
+title:      Efficient Content Distribution in Crowdsourced Vehicular Content-Centric Networking
+subtitle:   Research content
 date:       2019-03-23
 author:     Chengming Li
 header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
-    - 众包
-    - 车载内容中心网络
-    - 内容分发模型
+    - Crowdsourcing
+    - Vehicular Content-Centric Networking
+    - Content Distribution
 ---
-# 研究内容
+# Summary
 
->简介：
-车载内容中心网络方面取得进展（众包车载内容中心网络中安全高效的内容分发模型）。在未来智能交通系统中，海量的内容需要通过车联网安全高效的在车辆之间或车辆与路边单元之间传输。为了应对低质量的无线连接和车辆的高移动性，学者们提出了车载内容中心网络。但是，提供高质量内容分发的车载内容中心网络面临着动态网络拓扑、易变的无线信道条件、车辆用户隐私等方面的挑战。鉴于此，我们提出了一种新的众包车载内容中心网络框架来实现安全和高效的内容分发，将内容分发问题转化成最大化所有用户收益，并通过在线调度方法解决了次问题。同时，我们采用基于身份的代理重加密和命名功能网络来保证内容分发过程的安全性。仿真结果表明，与原有的车载内容中心网络相比较，该方法提高了平均用户收益性能。
+>In future intelligent transportation systems, a large amount of content needs to be efficiently and securely exchanged between vehicles and roadside units via vehicular networks to improve the driving and traveling experience. To solve the challenges caused by poor-quality wireless links and the mobility of vehicles, vehicular content-centric networking (VCCN) emerges as a promising paradigm, which has a better content distribution efficiency, mobility, and security via named data and in-networking caching compared with an IP-based network. However, providing a high-quality experience for content distribution in VCCN is challenging due to the dynamic network topologies, varying wireless channel conditions, and vehicle user privacy. We propose a novel crowdsourced VCCN framework for secure and efficient content distribution. This framework enables the nearby vehicles to crowdsource their caching resources and radio links for cooperative content distribution. We formulate the problem as the maximization of all users’ payoff and propose an online scheduling method to solve this solution. Furthermore, we adopt identity-based proxy reencryption and named function networking to secure the process of content distribution. The simulation results show that our proposals improve the performance of VCCN in terms of average requester utility compared with original CCN forwarding strategies.
 
 ![image](/img/project-study/crowdsourcedvehicularccn.jpg)
