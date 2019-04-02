@@ -7,8 +7,8 @@ header-img: "img/post-bg-rwd.jpg"
 
 <!-- Language Selector -->
 <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="1" selected> 中文 Chinese </option>
-    <option value="0"> 英文 English </option>
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
 </select>
 
 <!-- Chinese Version -->
@@ -166,17 +166,17 @@ header-img: "img/post-bg-rwd.jpg"
     // handle render
     function _render(){
         var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
+        // zh
+        if(_hash == "#zh"){
             $select.selectedIndex = 0;
             $zh.style.display = "block";
             $en.style.display = "none";
+        // en by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
         }
     }
 
