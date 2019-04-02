@@ -1,17 +1,17 @@
 ---
 layout:     post
-title:      项目名称：内容中心网络绿色智能请求转发模型研究
-subtitle:   内容中心网络绿色智能请求转发模型研究
+title:      Green Intelligent Requests Forwarding Model of Content-Centric Networking
+subtitle:   Shenzhen Science and Technology Foundation
 date:       2019-03-22
 author:     Chengming Li
 header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
-    - 内容中心网络
-    - 绿色智能请求转发模型
+    - Content-Centric Network
+    -  Green Intelligent Requests Forwarding
 ---
-# 项目简介
+# Project introduction
 
->内容中心网络（CCN）是一种革命式（ Clean-Slate）的未来互联网设计思路。内容中心网络不再对数据所在的地址命名，而是直接对数据本身命名，被命名的数据己经成为最为关键的网络实体。但在内容中心网络的路由过程中，由于缓存资源的出现以及面向命名内容的路由等因素，多优化目标之间的冲突，如多径路由和冗余传输，以及工程实践中对转发策略的动态性需求和复杂度约束，也使得这一问题面临不小的挑战。本项目的总体目标是设计一个绿色智能的转发架构来提高在复杂动态的网络环境中 CCN 网络的性能。绿色智能转发架构具有良好的可扩展性，可保证 CCN 网络的大规模部署；在复杂动态的网络环境中，能够保证 CCN 网络整个路由转发引擎的健壮性和鲁棒性；支持具有服务质量 QoS 感知的智能转发算法，提供优良的用户服务；保证服务的同时，提高 CCN 网络的搞笑节能；支持公平的同一请求多路径转发和同一内容不同请求多路径转发特性；具有良好的移动性，满足移动互联网的需求。
+>Content-Centric Network (CCN) is a Clean-Slate future Internet design idea. CCN no longer names the address where the data is located, but directly names the data itself. The named data has become the most critical network entity. However, due to the emergence of caching, routing of named content, conflicts between multiple optimization targets, such as multipath routing and redundant transmission, how to design routing and forwarding strategies in CCN is a challenge issue. The goal of this project is to design a green and intelligent forwarding mechanism to improve the performance of CCN in complex and dynamic network environments. The green intelligent forwarding architecture need to have good scalability to ensure large-scale deployment of CCN. In a complex and dynamic network environment, it can ensure the robustness of the routing and forwarding engine of CCN. It can provide excellent user service by supporting QoS aware Intelligent forwarding algorithm; supporting multi-path forwarding for the same request and different requests of the same content; satisfying the mobile internet Demand.
 
 ![image](/img/project-study/greenintelligentrequestforwardingmodelCCN.jpg)
