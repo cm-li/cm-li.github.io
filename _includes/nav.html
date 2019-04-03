@@ -20,13 +20,23 @@
                         <a href="{{ site.baseurl }}/">Home</a>
                     </li>
                     <li>
+                        <a href="{{ site.baseurl }}/research/">Research</a>
+                    </li>
+                    <li>
                         <a href="{{ site.baseurl }}/post_list/">Posts</a>
                     </li>
-                    {% for page in site.pages %}{% if page.title %}
+                    <li>
+                        <a href="{{ site.baseurl }}/about/">About Me</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/tags/">Tags</a>
+                    </li>
+                    <!-- Below is for auto generate navigation links-->
+                    <!-- {% for page in site.pages %}{% if page.title %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
-                    {% endif %}{% endfor %}
+                    {% endif %}{% endfor %} -->
                 </ul>
             </div>
         </div>

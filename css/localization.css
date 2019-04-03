@@ -8,6 +8,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+.about-me .certified-patent__label,
 .about-me .summary__label,
 .about-me .recent-projects__label,
 .about-me .selected-publications__label {
@@ -15,6 +16,7 @@
   margin-bottom: 10px;
   box-shadow: 0 2px 0px rgba(128, 128, 128, 0.2);
 }
+.about-me .certified-patent__list li,
 .about-me .recent-projects__list li,
 .about-me .selected-publications__list li {
   margin-bottom: 10px;
