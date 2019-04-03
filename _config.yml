@@ -101,8 +101,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "生活事业搭档",
-        href: "https://wenjing-liu.github.io/"
+        title: "Wenjing Liu",
+        href: ""
     },{
         title: "",
         href: ""
