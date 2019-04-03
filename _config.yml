@@ -101,7 +101,7 @@ service-worker: true
 friends: [
     {
         title: "生活事业搭档",
-        href: "https://clairejing.github.io/"
+        href: "https://wenjing-liu.github.io/"
     },{
         title: "",
         href: ""
